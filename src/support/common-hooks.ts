@@ -1,5 +1,5 @@
 import { ICustomWorld } from './custom-world';
-import { config } from './config';
+import { config } from '../config/config';
 import { Before, After, BeforeAll, AfterAll, Status, setDefaultTimeout } from '@cucumber/cucumber';
 import {
   chromium,
